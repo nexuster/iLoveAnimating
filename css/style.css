@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+#toolbar {
+  width: 120px;
+  background: #eee;
+  padding: 8px;
+}
+
+#stage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#canvas {
+  flex: 1;
+  background: white;
+  border: 1px solid #999;
+}
+
+#timeline {
+  height: 120px;
+  background: #ddd;
+  padding: 8px;
+}
